@@ -17,7 +17,7 @@ public class Home {
 	int y = 1080;
 	private JFrame frame;
 	private JTextField textField;
-	//awd
+	
 	int choice;
 	ButtonGroup g = new ButtonGroup();
 	
