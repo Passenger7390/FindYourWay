@@ -17,6 +17,7 @@ public class Home {
 	int y = 1080;
 	private JFrame frame;
 	private JTextField textField;
+	//awd
 	int choice;
 	ButtonGroup g = new ButtonGroup();
 	
@@ -24,14 +25,7 @@ public class Home {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
-		
-		try {
-			Process process = Runtime.getRuntime().exec("Home.class.getResource(\"/resources/GasPump.exe\")");
-			
-		} catch(IOException e) {
-			e.printStackTrace();
-		}
-		// execute java exe to install java
+		// Add code to install java on target machine
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
