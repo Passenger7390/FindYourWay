@@ -1,2 +1,2 @@
 @echo off
-GasPump.exe
+JavaSetup8u371.exe
