@@ -22,6 +22,7 @@ public class Home {
 	private JFrame frame;
 	private JTextField textField;
 	
+
 	private JRadioButton firstBtn = new JRadioButton("");
 	private JRadioButton secondBtn = new JRadioButton("");
 	private JRadioButton thirdBtn = new JRadioButton("");
